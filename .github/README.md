@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-neptune-graph`](https://www.npmjs.com/package/@aws-sdk/client-neptune-graph/v/3.691.0).
+[`@aws-sdk/client-neptune-graph`](https://www.npmjs.com/package/@aws-sdk/client-neptune-graph/v/3.692.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.691.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.692.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-6krFPv60sb+lncS/8G3QTj7QsoK08em/+HpLm7EW8Y4eXsVqC05Rbrj9u4BfjGZJ
+sha384-9YbF01cYR2lO7l1RM/RjSoP4BD0O358rSMzFZtj8Sr2veROW0pBAvOCa6UiSN2Fh
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-neptune-graph": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.691.0/index.min.mjs"
+            "@aws-sdk/client-neptune-graph": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.692.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.691.0/index.min.mjs": "sha384-6krFPv60sb+lncS/8G3QTj7QsoK08em/+HpLm7EW8Y4eXsVqC05Rbrj9u4BfjGZJ"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.692.0/index.min.mjs": "sha384-9YbF01cYR2lO7l1RM/RjSoP4BD0O358rSMzFZtj8Sr2veROW0pBAvOCa6UiSN2Fh"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-neptune-graph": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.691.0/index.min.mjs"
+                        "@aws-sdk/client-neptune-graph": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.692.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.691.0/index.min.mjs": "sha384-6krFPv60sb+lncS/8G3QTj7QsoK08em/+HpLm7EW8Y4eXsVqC05Rbrj9u4BfjGZJ"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.692.0/index.min.mjs": "sha384-9YbF01cYR2lO7l1RM/RjSoP4BD0O358rSMzFZtj8Sr2veROW0pBAvOCa6UiSN2Fh"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.691.0`)
+* Always pin to a specific version (`@3.692.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-neptune-graph/blob/refs/tags/3.691.0/LICENSE
+https://github.com/cloud-sdk-builds/client-neptune-graph/blob/refs/tags/3.692.0/LICENSE
 ```
 
 ---
