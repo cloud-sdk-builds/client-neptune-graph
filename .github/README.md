@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-neptune-graph`](https://www.npmjs.com/package/@aws-sdk/client-neptune-graph/v/3.1139.0).
+[`@aws-sdk/client-neptune-graph`](https://www.npmjs.com/package/@aws-sdk/client-neptune-graph/v/3.1140.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-neptune-graph - [https://cloud-sdk-builds.github.io/?sdk=client-neptune-graph](https://cloud-sdk-builds.github.io/?sdk=client-neptune-graph)
-- @aws-sdk/client-neptune-graph v3.1139.0 - [https://cloud-sdk-builds.github.io/?sdk=client-neptune-graph&version=3.1139.0](https://cloud-sdk-builds.github.io/?sdk=client-neptune-graph&version=3.1139.0)
+- @aws-sdk/client-neptune-graph v3.1140.0 - [https://cloud-sdk-builds.github.io/?sdk=client-neptune-graph&version=3.1140.0](https://cloud-sdk-builds.github.io/?sdk=client-neptune-graph&version=3.1140.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.1139.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.1140.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-WHdnfYXL+f1lDR7dLDosgCr3yzK4uUft/iC3vnSSpM6QlO6C0qIL9TSMq+A4aJLv
+sha384-PZUxhgc9R3rLyq+ztqkmV/++SpfSC6a9h9+bwnJa208gTnj9mg36j5gVL2AjkODP
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-neptune-graph": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.1139.0/index.min.mjs"
+            "@aws-sdk/client-neptune-graph": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.1140.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.1139.0/index.min.mjs": "sha384-WHdnfYXL+f1lDR7dLDosgCr3yzK4uUft/iC3vnSSpM6QlO6C0qIL9TSMq+A4aJLv"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.1140.0/index.min.mjs": "sha384-PZUxhgc9R3rLyq+ztqkmV/++SpfSC6a9h9+bwnJa208gTnj9mg36j5gVL2AjkODP"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-neptune-graph": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.1139.0/index.min.mjs"
+                        "@aws-sdk/client-neptune-graph": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.1140.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.1139.0/index.min.mjs": "sha384-WHdnfYXL+f1lDR7dLDosgCr3yzK4uUft/iC3vnSSpM6QlO6C0qIL9TSMq+A4aJLv"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptune-graph@3.1140.0/index.min.mjs": "sha384-PZUxhgc9R3rLyq+ztqkmV/++SpfSC6a9h9+bwnJa208gTnj9mg36j5gVL2AjkODP"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1139.0`)
+* Always pin to a specific version (`@3.1140.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-neptune-graph/blob/refs/tags/3.1139.0/LICENSE
+https://github.com/cloud-sdk-builds/client-neptune-graph/blob/refs/tags/3.1140.0/LICENSE
 ```
 
 ---
